@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400&family=Stick+No+Bills:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- customize-fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./index.css" />
+
+    <script defer src="./index.js"></script>
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="frame-outer">
+        <div class="frame-inner">
+          <div class="sc-line">
+            <div class="myDay"></div>
+            <div class="line"></div>
+            <div class="myDate"></div>
+          </div>
+          <div class="calc">
+            <div class="dummy"><p>Sarju Maibam ♥</p></div>
+            <div class="temp-display"></div>
+            <div class="display"></div>
+            <div class="hr"></div>
+            <div class="key-pad">
+              <div class="key op" onclick="cl()">
+                <p>AC</p>
+              </div>
+              <div class="key op" onclick="del()">
+                <p>DEL</p>
+              </div>
+              <div class="key op" onclick="mod()">
+                <p>%</p>
+              </div>
+              <div class="key op" onclick="division()">
+                <p>/</p>
+              </div>
+              <div class="key no" onclick="seven()">
+                <p>7</p>
+              </div>
+              <div class="key no" onclick="eight()">
+                <p>8</p>
+              </div>
+              <div class="key no" onclick="nine()">
+                <p>9</p>
+              </div>
+              <div class="key op" onclick="multiply()">
+                <p>x</p>
+              </div>
+              <div class="key no" onclick="four()">
+                <p>4</p>
+              </div>
+              <div class="key no" onclick="five()">
+                <p>5</p>
+              </div>
+              <div class="key no" onclick="six()"><p>6</p></div>
+              <div class="key op" onclick="minus()">
+                <p>-</p>
+              </div>
+              <div class="key no" onclick="one()"><p>1</p></div>
+              <div class="key no" onclick="two()"><p>2</p></div>
+              <div class="key no" onclick="three()">
+                <p>3</p>
+              </div>
+              <div class="key op" onclick="plus()">
+                <p>+</p>
+              </div>
+              <div class="key op at-the-r" onclick="changeTheme()">
+                <p>@</p>
+              </div>
+              <div class="key no" onclick="zero()">
+                <p>0</p>
+              </div>
+              <div class="key op" onclick="point()">
+                <p>.</p>
+              </div>
+              <div class="key op equal-to" onclick="equal()">
+                <p>=</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
